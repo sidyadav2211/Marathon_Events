@@ -5,14 +5,14 @@
     "name": "Mumbai Marathon",
     "time": "5:30 am",
     "date": "12-01-2024",
-    "color": "lightBlue",
+    "color": "#33C2FF",
   },
     {
     "id": 2, 
     "name": "Hyderabad Marathon",
     "time": "5:30 am",
     "date": "1-08-2024",
-    "color": "lightgreen",
+    "color": "#B5FF33",
   },
     {
     "id": 3, 
