@@ -1,2 +1,2 @@
 # Marathon_Events
-Using Vuejs 3 
+Using Vuejs 3 (option Api) 
