@@ -1,21 +1,21 @@
 {
   "events": [
   {
-    "id":1, 
+    "id": 1, 
     "name": "Mumbai Marathon",
     "time": "5:30 am",
     "date": "12-01-2024",
     "color": "lightBlue",
   },
     {
-    "id":2, 
+    "id": 2, 
     "name": "Hyderabad Marathon",
     "time": "5:30 am",
     "date": "1-08-2024",
     "color": "lightgreen",
   },
     {
-    "id":2, 
+    "id": 3, 
     "name": "Delhi Marathon",
     "time": "7:30 am",
     "date": "30-10-2024",
