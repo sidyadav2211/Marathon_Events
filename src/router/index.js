@@ -23,13 +23,14 @@ const routes =[
     },
     {
      path: '/:catchAll(.*)', 
-      component: NotFound,
+    component: NotFound,
       name: 'NotFound'
     }
 ]
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
-    routes
-})
+	history: createWebHistory(process.env.BASE_URL),
+	mode: 'history',
+	routes,
+});
 export default router
