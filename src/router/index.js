@@ -3,6 +3,7 @@ import  HomePage   from '../views/HomePage.vue'
 import   AboutPage   from '../views/AboutPage.vue'
 import EventDetails from '../views/EventDetails'
 import NotFound from '../views/NotFound'
+import CreateEvent from '../views/CreateEvent'
 
 const routes =[
     {
@@ -20,6 +21,11 @@ const routes =[
     props: true,
     name:"EventDetails",
     component:EventDetails,
+    },
+    {
+        path:'/create-event',
+        name:'CreateEvent',
+        component:CreateEvent,
     },
     {
      path: '/:catchAll(.*)', 
