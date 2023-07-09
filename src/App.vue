@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
     <Router-link to="/">Home</Router-link> |
-    <Router-link to="/about">About</Router-link>
+    <Router-link to="/about">About</Router-link> |
+    <Router-link :to="{name:'CreateEvent'}"> Create Event </Router-link>
   </div>
   <Router-view/>
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
